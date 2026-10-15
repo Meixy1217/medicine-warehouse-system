@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#37654e">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%2337654e%22%2F%3E%3Cg%20transform%3D%22translate%284%204%29%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%2021v-13l9%20-4l9%204v13%22%20%2F%3E%0A%20%20%3Cpath%20d%3D%22M13%2013h4v8h-10v-6h6%22%20%2F%3E%0A%20%20%3Cpath%20d%3D%22M13%2021v-9a1%201%200%200%200%20-1%20-1h-2a1%201%200%200%200%20-1%201v3%22%20%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+  <title>药品仓库 · 物资管理</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0/dist/css/tabler.min.css">
+  <link rel="stylesheet" href="/static/style.css?v=20261015-2">
+  <script src="/static/app.js?v=20261015-2" defer></script>
+</head>
+<body>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><defs>
+<symbol id="icon-alert-triangle" viewBox="0 0 24 24"><path d="M12 9v4" />
+  <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+  <path d="M12 16h.01" /></symbol>
+<symbol id="icon-building-warehouse" viewBox="0 0 24 24"><path d="M3 21v-13l9 -4l9 4v13" />
+  <path d="M13 13h4v8h-10v-6h6" />
+  <path d="M13 21v-9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v3" /></symbol>
+<symbol id="icon-check" viewBox="0 0 24 24"><path d="M5 12l5 5l10 -10" /></symbol>
+<symbol id="icon-layout-dashboard" viewBox="0 0 24 24"><path d="M5 4h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1" />
+  <path d="M5 16h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1" />
+  <path d="M15 12h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1" />
+  <path d="M15 4h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1" /></symbol>
+<symbol id="icon-menu-2" viewBox="0 0 24 24"><path d="M4 6l16 0" />
+  <path d="M4 12l16 0" />
+  <path d="M4 18l16 0" /></symbol>
+<symbol id="icon-package-export" viewBox="0 0 24 24"><path d="M12 21l-8 -4.5v-9l8 -4.5l8 4.5v4.5" />
+  <path d="M12 12l8 -4.5" />
+  <path d="M12 12v9" />
+  <path d="M12 12l-8 -4.5" />
+  <path d="M15 18h7" />
+  <path d="M19 15l3 3l-3 3" /></symbol>
+<symbol id="icon-package-import" viewBox="0 0 24 24"><path d="M12 21l-8 -4.5v-9l8 -4.5l8 4.5v4.5" />
+  <path d="M12 12l8 -4.5" />
+  <path d="M12 12v9" />
+  <path d="M12 12l-8 -4.5" />
+  <path d="M22 18h-7" />
+  <path d="M18 15l-3 3l3 3" /></symbol>
+<symbol id="icon-packages" viewBox="0 0 24 24"><path d="M7 16.5l-5 -3l5 -3l5 3v5.5l-5 3l0 -5.5" />
+  <path d="M2 13.5v5.5l5 3" />
+  <path d="M7 16.545l5 -3.03" />
+  <path d="M17 16.5l-5 -3l5 -3l5 3v5.5l-5 3l0 -5.5" />
+  <path d="M12 19l5 3" />
+  <path d="M17 16.5l5 -3" />
+  <path d="M12 13.5v-5.5l-5 -3l5 -3l5 3v5.5" />
+  <path d="M7 5.03v5.455" />
+  <path d="M12 8l5 -3" /></symbol>
+<symbol id="icon-pill" viewBox="0 0 24 24"><path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
+  <path d="M8.5 8.5l7 7" /></symbol>
+<symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5l0 14" />
+  <path d="M5 12l14 0" /></symbol>
+<symbol id="icon-search" viewBox="0 0 24 24"><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M21 21l-6 -6" /></symbol>
+<symbol id="icon-truck-delivery" viewBox="0 0 24 24"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+  <path d="M3 9l4 0" /></symbol>
+<symbol id="icon-x" viewBox="0 0 24 24"><path d="M18 6l-12 12" />
+  <path d="M6 6l12 12" /></symbol>
+</defs></svg>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-building-warehouse"></use></svg></span>
+        <div><strong>药品仓库</strong><small>物资管理系统</small></div>
+      </div>
+      <nav id="nav" class="nav-list"></nav>
+      <div class="sidebar-foot">库存随单据自动更新</div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <button id="menuButton" class="menu-button" type="button" aria-label="打开导航" aria-expanded="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-menu-2"></use></svg></button>
+        <div class="topbar-title">仓储工作台</div>
+        <span id="today" class="topbar-date"></span>
+      </header>
+      <main id="main" class="main-content" tabindex="-1"></main>
+    </div>
+  </div>
+  <dialog id="editor" class="editor-dialog">
+    <form id="editorForm" class="editor-panel">
+      <div class="editor-heading"><h2 id="editorTitle"></h2><button id="closeEditor" class="icon-close" type="button" aria-label="关闭"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#icon-x"></use></svg></button></div>
+      <div id="editorFields" class="editor-fields"></div>
+      <div class="editor-actions"><button id="cancelEditor" class="btn btn-outline-secondary" type="button">取消</button><button class="btn btn-primary" type="submit">保存</button></div>
+    </form>
+  </dialog>
+  <div id="toast" class="toast-message" role="status" aria-live="polite"></div>
+</body>
+</html>

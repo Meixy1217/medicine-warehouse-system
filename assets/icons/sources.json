@@ -1,0 +1,77 @@
+{
+  "project": "Tabler Icons",
+  "license": "MIT",
+  "downloaded_on": "2026-10-15",
+  "assets": [
+    {
+      "file": "layout-dashboard.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/layout-dashboard.svg",
+      "sha256": "8210661405d0e6b7b5ea671a136c59e3e8fcc5e708a9fa332601bbf4a3d2b91a"
+    },
+    {
+      "file": "packages.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/packages.svg",
+      "sha256": "241a2b9392fb15f175d4ca2994d419fe4caf2d826c55e5be995e536d96d1be05"
+    },
+    {
+      "file": "package-import.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/package-import.svg",
+      "sha256": "de460ca83e06041a85b13bf9a1646f920d22fa740b1c560e295c6ea35722fd64"
+    },
+    {
+      "file": "package-export.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/package-export.svg",
+      "sha256": "bffe4c21b5ccddfcad0380488cb34a445252b1c887e99e1c1500c3453decc5e8"
+    },
+    {
+      "file": "pill.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/pill.svg",
+      "sha256": "8302b4138e4075b171593027e1b796216d69a99f10f417e3386fbb316d4c9c58"
+    },
+    {
+      "file": "truck-delivery.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/truck-delivery.svg",
+      "sha256": "667bc7239ecf90c32492f14d9939fd466bf6ff9b4d51c8da2efe233e3331636c"
+    },
+    {
+      "file": "building-warehouse.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/building-warehouse.svg",
+      "sha256": "c439f600fc613de665d6b31bc94e39212c459316552622f16624599886f27274"
+    },
+    {
+      "file": "alert-triangle.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/alert-triangle.svg",
+      "sha256": "25b1f0c39f34647017df84a0cdc9e691c697737094a5956c360ab448a7fd5bef"
+    },
+    {
+      "file": "menu-2.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/menu-2.svg",
+      "sha256": "bcef199c5e53082a56c7bf33d4c48181b71373eb5d923cce8884aca09d106842"
+    },
+    {
+      "file": "x.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/x.svg",
+      "sha256": "9350785360414c39450c3505f17d1745e55a7534edace8548e30cf49e3727d43"
+    },
+    {
+      "file": "plus.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/plus.svg",
+      "sha256": "9cc497d4cc1eb38cf9daae18f41ffdc1a5e2a8431d70247b0854978f303f28d6"
+    },
+    {
+      "file": "search.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/search.svg",
+      "sha256": "3dd53b9606283dfa0adcb0b10a7d9a4432369d4bebcfacf67f80fbe358381c34"
+    },
+    {
+      "file": "check.svg",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/check.svg",
+      "sha256": "e206067a7d570997b5b3a7d30ab287c0b15a492787649a8b96dff8fad2862fbe"
+    },
+    {
+      "file": "LICENSE",
+      "source": "https://raw.githubusercontent.com/tabler/tabler-icons/main/LICENSE",
+      "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "package": "sql.js",
+    "version": "1.13.0",
+    "source": "https://registry.npmjs.org/sql.js/-/sql.js-1.13.0.tgz",
+    "integrity": "sha512-RJbVP1HRDlUUXahJ7VMTcu9Rm1Nzw+EBpoPr94vnbD4LwR715F3CcxE2G2k45PewcaZ57pjetYa+LoSJLAASgA=="
+  },
+  {
+    "package": "@tabler/core",
+    "version": "1.0.0",
+    "source": "https://registry.npmjs.org/@tabler/core/-/core-1.0.0.tgz",
+    "integrity": "sha512-uFmv6f8TAaW2JaGwzjT1LfK+TjmBQSTCoznCMdV5uur4cv4TtJlV8Hh1Beu55YX0svMtOQ0Xts7tYv/+qBEcfA=="
+  }
+]

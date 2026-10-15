@@ -1,0 +1,68 @@
+{
+  "dataset_id": "warehouse_demo_v1",
+  "description": "虚构的系统演示数据，价格、供应商及业务流水仅用于测试",
+  "drugs": [
+    {"code":"DEMO001","name":"阿莫西林胶囊","specification":"0.25g×24粒","unit":"盒","min_stock":30},
+    {"code":"DEMO002","name":"对乙酰氨基酚片","specification":"0.5g×20片","unit":"盒","min_stock":40},
+    {"code":"DEMO003","name":"布洛芬缓释胶囊","specification":"0.3g×12粒","unit":"盒","min_stock":30},
+    {"code":"DEMO004","name":"维生素C片","specification":"0.1g×100片","unit":"瓶","min_stock":20},
+    {"code":"DEMO005","name":"氯雷他定片","specification":"10mg×6片","unit":"盒","min_stock":15},
+    {"code":"DEMO006","name":"蒙脱石散","specification":"3g×10袋","unit":"盒","min_stock":25},
+    {"code":"DEMO007","name":"葡萄糖注射液","specification":"5% 250mL","unit":"瓶","min_stock":50},
+    {"code":"DEMO008","name":"氯化钠注射液","specification":"0.9% 250mL","unit":"瓶","min_stock":60},
+    {"code":"DEMO009","name":"碘伏消毒液","specification":"100mL","unit":"瓶","min_stock":15},
+    {"code":"DEMO010","name":"医用酒精","specification":"75% 500mL","unit":"瓶","min_stock":20},
+    {"code":"DEMO011","name":"奥美拉唑肠溶胶囊","specification":"20mg×14粒","unit":"盒","min_stock":20},
+    {"code":"DEMO012","name":"生理性海水鼻喷雾","specification":"60mL","unit":"瓶","min_stock":10}
+  ],
+  "suppliers": [
+    {"key":"S1","name":"演示供应商·康源医药","contact":"测试联系人甲","phone":"测试号码-001"},
+    {"key":"S2","name":"演示供应商·惠民药业","contact":"测试联系人乙","phone":"测试号码-002"},
+    {"key":"S3","name":"演示供应商·安泰医药","contact":"测试联系人丙","phone":"测试号码-003"},
+    {"key":"S4","name":"演示供应商·洁护物资","contact":"测试联系人丁","phone":"测试号码-004"}
+  ],
+  "warehouses": [
+    {"key":"W1","name":"演示·中心药品库","location":"一号楼一层 A 区"},
+    {"key":"W2","name":"演示·门诊周转库","location":"门诊楼一层 B 区"},
+    {"key":"W3","name":"演示·输液物资库","location":"一号楼一层 C 区"}
+  ],
+  "opening_receipts": [
+    ["DEMO001","S1","W1",180,1280],
+    ["DEMO002","S2","W1",100,850],
+    ["DEMO003","S2","W1",80,1680],
+    ["DEMO004","S1","W1",60,650],
+    ["DEMO005","S3","W1",50,1980],
+    ["DEMO006","S3","W1",70,2150],
+    ["DEMO007","S1","W1",200,420],
+    ["DEMO008","S1","W1",150,380],
+    ["DEMO009","S4","W1",45,560],
+    ["DEMO010","S4","W1",50,980],
+    ["DEMO011","S3","W1",40,1560],
+    ["DEMO012","S4","W1",30,2580],
+    ["DEMO001","S1","W2",60,1280],
+    ["DEMO002","S2","W2",50,850],
+    ["DEMO007","S1","W3",80,420],
+    ["DEMO008","S1","W3",100,380],
+    ["DEMO009","S4","W2",20,560],
+    ["DEMO010","S4","W2",20,980]
+  ],
+  "issues": [
+    ["DEMO001","W1",60,"演示·综合门诊"],
+    ["DEMO002","W1",75,"演示·内科门诊"],
+    ["DEMO003","W1",80,"演示·急诊科"],
+    ["DEMO004","W1",40,"演示·综合门诊"],
+    ["DEMO005","W1",10,"演示·皮肤科"],
+    ["DEMO006","W1",50,"演示·内科门诊"],
+    ["DEMO007","W1",80,"演示·输液室"],
+    ["DEMO008","W1",110,"演示·输液室"],
+    ["DEMO009","W1",10,"演示·处置室"],
+    ["DEMO010","W1",5,"演示·处置室"],
+    ["DEMO011","W1",25,"演示·内科门诊"],
+    ["DEMO012","W1",5,"演示·耳鼻喉科"],
+    ["DEMO001","W2",10,"演示·门诊药房"]
+  ],
+  "restock_receipts": [
+    ["DEMO008","S1","W1",100,380]
+  ],
+  "expected": {"drugs":12,"suppliers":4,"warehouses":3,"receipts":19,"issues":13,"inventory":18,"total_quantity":925,"open_alerts":4,"resolved_alerts":1}
+}
